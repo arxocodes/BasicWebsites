@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+/* styling the header */
+header {
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+}
+
+/* styling navigation */
+/* instead of using float and not having control, use display flex and flex direction on a container(parent element), not the child elements */
+.nav {
+    overflow: hidden;
+    background-color: rgb(255, 251, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+
+}
+
+.nav a {
+    
+    text-align: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(45, 216, 207, 0.808);
+    color: white;
+}
+/* fr  stands for fraction unit, 
+it represents a fraction of available space in the grid container. */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+
+.grid {
+    text-align: center;
+    padding: 10px;
+}
+
+#about, #blog {
+    background-color: black;
+    color: white;
+}
+
+
