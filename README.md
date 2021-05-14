@@ -6,4 +6,4 @@ this rep is the home of a few projects. These are practice websites only. Very b
 * Each project/website is numbered. Example: "site1.html/ style1.css"
 
 # Author
-(xoshly)[https://twitter.com/xoshly]
+[xoshly](https://twitter.com/xoshly)
