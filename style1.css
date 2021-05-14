@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+/* styling the header */
+.header {
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+}
+
+/* styling navigation */
+.nav-menu {
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav-menu a {
+    float: left;
+    text-align: center;
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(240, 24, 240);
+    color: white;
+}
+
+/* styling content layout */
+.colA, .colB, .colC {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    text-align: justify;
+}
+
+h2 {
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.colB {
+    text-align: center;
+}
+
+/* media query settings for responsive website */
+
+/* size for tablets, setting it to 50% will create 2 columns */
+@media screen and (max-width:600px) {
+    .colA, .colB, .colC {
+        width: 50%
+    }
+}
+/* size for cellphones, setting it to 100% will create 1 column */
+@media screen and (max-width:400px) {
+    .colA, .colB, .colC {
+        width: 100%
+    }
+}
